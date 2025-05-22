@@ -84,5 +84,11 @@ footer{
         display: block;
         padding-bottom: 70px;
     }
+    .sec{
+    margin: 10px;
+    border-radius: 50%;
+    height: 55px;
+    width: 60px;
+    }
 
 }
