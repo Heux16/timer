@@ -71,6 +71,11 @@ h1{
 .invi{
     display: none;
 }
+footer{
+    text-align: center;
+    color: aliceblue;
+    
+}
 @media (max-width: 480px) {
     #div1 {
         padding-top: 30px;
