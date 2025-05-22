@@ -14,17 +14,26 @@ h1{
     font-size: 3em;
     text-align: center;
 }
-.vars{
-    display: block;
-    margin: 20px auto;
 
+#div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-#in1{
+.int{
     padding: 10px;
     text-align: center;
     margin-bottom: 0px;
     border: none;
-   
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+#in1{
+    margin-right: 5px ;
+}
+#in2{
+    margin-left: 5px ;
 }
 #div2{
     display: flex;
@@ -34,6 +43,7 @@ h1{
     flex-basis: 100px;
     height: 100px;
     margin-top: 80px;
+    flex-wrap: nowrap;
 }
 
 .btn{
@@ -54,15 +64,20 @@ h1{
     border-radius: 50%;
     height: 75px;
     width: 80px;
-    
+}
+.sec:hover{
+    background-color: wheat;
 }
 .invi{
     display: none;
 }
 @media (max-width: 480px) {
     #div1 {
+        padding-top: 30px;
         width: auto;     
-        height: 500px;    
+        height: auto;    
         display: block;
+        padding-bottom: 70px;
     }
+
 }
